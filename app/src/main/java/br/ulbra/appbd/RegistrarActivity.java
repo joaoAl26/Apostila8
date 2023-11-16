@@ -26,7 +26,7 @@ public class RegistrarActivity extends AppCompatActivity {
         edPas1 = (EditText) findViewById(R.id.txtPas1);
         edPas2 = (EditText) findViewById(R.id.txtPas2);
 
-        btSalvar = (Button) findViewById(R.id.btnSalvar);
+        btSalvar = (Button) findViewById(R.id.btnLogar);
 
         btSalvar.setOnClickListener(new View.OnClickListener() {
             @Override
